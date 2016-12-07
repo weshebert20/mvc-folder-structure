@@ -11,6 +11,10 @@ app.set('views', __dirname + "/views");
 app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
+//Get those routes
+var routes = require(__dirname + '/config/routes');
+app.use('/', routes);
+
 //Start server
 app.listen(3000, function() {
 	console.log("Listening at http://localhost:3000");

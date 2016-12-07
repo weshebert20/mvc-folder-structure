@@ -1,8 +1,13 @@
+var express = require('express');
+var router = express.Router();
 
+var cargoControllers = require('../controllers/cargoControllers');
 
 //Cargo form
-app.get('/cargo/new', cargoGet);
+router.get('/cargo/new', cargoControllers.cargoGet);
 
 
 //Add new cargo
-app.post('/cargo', cargoPost);
+router.post('/cargo', cargoControllers.cargoPost);
+
+module.exports = router;
