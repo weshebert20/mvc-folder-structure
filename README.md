@@ -17,4 +17,7 @@ This is cool, but its NOT the way to set up an MVC app. All of our main function
 
 This is akin to every car having the same basic deisgn - steering is conducted with a wheel, shifting gears are next to the steering wheel or in the center console, pedals are on the floor. Because these relatively large functions remain exactly the same across all cars, we can better focus our attention on the nuances of each make and model - like accelartion, handling, and so forth. 
 
+![Do not attempt to drive this car](https://www.wired.com/wp-content/uploads/2014/12/IMG_21731.jpg)
+
 ## Let's Begin
+
