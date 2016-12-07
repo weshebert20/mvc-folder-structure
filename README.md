@@ -6,10 +6,10 @@ Remeber [How HTTP/MVC is like a plane](https://github.com/den-wdi-2/mvc-intro)? 
 
 The Starter Code in this repo is a modified version of the Solution Code from the Intro to MVC class. If you test it, you'll see that it works almost identically. To replicate:
 
-1.) Open terminal and `cd` to the root of `starter code`.
-2.) Run `Mongod` to start your Mongo Test DV.
-3.) Open a new terminal tab and run `nodemon server.js` to start your localhost sever.
-4.) Open ANOTHER new terminal tab and run `mongo` - this will open the Mongo CLI.
+1. Open terminal and `cd` to the root of `starter code`.
+2. Run `Mongod` to start your Mongo Test DV.
+3. Open a new terminal tab and run `nodemon server.js` to start your localhost sever.
+4. Open ANOTHER new terminal tab and run `mongo` - this will open the Mongo CLI.
 
 You can now go to [http://localhost:3000/cargo/new](http://localhost:3000/cargo/new) to add new cargo to "ship" to your database. When you hit submit, you are directed to a page that lists that item.
 
