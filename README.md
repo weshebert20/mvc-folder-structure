@@ -19,5 +19,7 @@ This is akin to every car having the same basic deisgn - steering is conducted w
 
 ![Do not attempt to drive this car](https://www.wired.com/wp-content/uploads/2014/12/IMG_21731.jpg)
 
-## Let's Begin
+## Reconstruction
+
+Throughout this lab we are now going to reconstruct our cargo app based on MVC best practices. By the end, we should have a functional MVC app that delivers are retrieves cargo via our metaphorical cargo plane.
 
