@@ -13,7 +13,7 @@ The Starter Code in this repo is a modified version of the Solution Code from th
 
 You can now go to [http://localhost:3000/cargo/new](http://localhost:3000/cargo/new) to add new cargo to "ship" to your database. When you hit submit, you are directed to a page that lists that item.
 
-This is cool, but its NOT the way to set up an MVC app. All of our main functions are grouped in the server.js file! In a perfect world, a server.js file has only server information. In fact, every piece of code in our app has a special place to live, based on best practices. These are a standardized set of name conventions adopted by developers in order to make it easier to jump into a project without much spinup time.
+This is cool and all, but look at that `server.js` file - the whole app is in there! This is NOT the way to set up an MVC app. In a perfect world, a server.js file has only server information. In fact, every piece of code in our app has a special place to live, based on best practices. These are a standardized set of name conventions adopted by developers in order to make it easier to jump into a project without much spinup time.
 
 This is akin to every car having the same basic deisgn - steering is conducted with a wheel, shifting gears are next to the steering wheel or in the center console, pedals are on the floor. Because these relatively large functions remain exactly the same across all cars, we can better focus our attention on the nuances of each make and model - like accelartion, handling, and so forth. 
 
@@ -22,4 +22,7 @@ This is akin to every car having the same basic deisgn - steering is conducted w
 ## Reconstruction
 
 Throughout this lab we are now going to reconstruct our cargo app based on MVC best practices. By the end, we should have a functional MVC app that delivers are retrieves cargo via our metaphorical cargo plane.
+
+![MVC](img/MVC.png)
+>MVC, as it relates to The Stack ^^^
 
